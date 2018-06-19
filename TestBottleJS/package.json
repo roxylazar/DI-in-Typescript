@@ -1,0 +1,32 @@
+{
+  "name": "testbottlejs",
+  "version": "1.0.0",
+  "description": "See how DI is used with BottleJS",
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "bottlejs": "^1.7.1",
+    "typescript": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.0.2",
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js?|ts?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  }
+}
