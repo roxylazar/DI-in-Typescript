@@ -18,7 +18,7 @@ export class RonToEuroConverter extends Converter {
 }
 
 export class DollarToRonConverter extends Converter {
-    constructor(protected rate: ChangeRate) {super(rate); }
+    
     convert(amount: number): number {
         return amount * this.rate.sellDollarRate;
     }

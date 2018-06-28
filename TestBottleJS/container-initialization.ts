@@ -35,4 +35,5 @@ bottle.factory("AccountManager", function(container){
     return manager;
 });
 
+//bottle.service("AccountManager", AccountManager,  "PagerAlert", "BankAccountValidator");
 export {bottle};

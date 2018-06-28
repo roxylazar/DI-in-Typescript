@@ -5,7 +5,7 @@ import { PagerAlert } from "../src/models/Alert";
 import { BankAccount } from "../src/models/BankAccount";
 import { CurrencyType } from "../src/models/CurrencyType";
 
-describe("when mocking dependencies 2", () => {
+describe("when mocking dependencies", () => {
     describe('when opening an account', () => {
         let manager: AccountManager;
         let customer: Customer;
